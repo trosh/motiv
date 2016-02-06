@@ -1,49 +1,120 @@
-\documentclass[12pt,a4paper]{letter}
-\usepackage[margin=1.2in]{geometry}
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1.2in,top=1in,bottom=1in]{geometry}
 \usepackage[french]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\hypersetup{urlbordercolor={1 .5 0}}
+\usepackage{newcent}
+\selectfont
+\usepackage{microtype}
+\usepackage{graphicx}
+
+\setlength{\parskip}{.2in}
+\setlength{\parindent}{0pt}
+
+\pagenumbering{gobble}
 
 \begin{document}
-\pagenumbering{gobble}
-Bonjour,
-\\[.3in]
-Je recherche un stage en HPC
-pour une période juin\---août.
-Je recherche un poste où je pourrai
-pleinement découvrir ma place dans
-une chaine de production et appliquer
-mes capacités à résoudre des
-vrais problèmes.
-\\[.2in]
-J'ai initialement une formation en
-maths et physique qui m'offre une
-base solide face aux questions
-scientifiques;
-j'ai durant cette période passé mon
-temps libre à programmer de nombreux
-projets, découvrir unix et participer à des
-communautés liées à la programmation.
-Après avoir acquis ma double licence
-j'ai choisi de rester à l'UVSQ et suivre la
-branche d'informatique haute performance
-et simulation pour m'impliquer à cent
-pourcent dans ma passion pour
-l'informatique tout en conservant
+
+\begin{minipage}{.5\textwidth}
+\begin{flushleft}
+John Gliksberg \\
+14 rue Anatole France \\
+92310 Sèvres \\
+06 40 60 76 95 \\
+\href{mailto:jg.trosh@gmail.com}
+{jg.trosh@gmail.com}
+\end{flushleft}
+\end{minipage}
+
+{
+    \hspace*{\fill}
+    \begin{minipage}{.5\textwidth}
+    \begin{flushleft}
+%    Groupe SAFRAN \\
+%    Direction des Ressources Humaines \\
+%    2 Boulevard du Général Martial Valin \\
+%    75015 Paris \\[.07in]
+%    \`A l’attention de Monsieur DELPIT \\[.07in]
+    Le 6 février 2016
+    \end{flushleft}
+    \end{minipage}
+}
+
+\vspace*{\fill}
+
+\begin{center}
+    \large
+    Recherche d'un stage M2 \\
+    orienté calcul haute performance
+\end{center}
+
+\vspace*{\fill}
+
+Madame, Monsieur,
+
+Je recherche un stage orienté HPC de six mois entre mars et septembre,
+dans le cadre d'un M2 en calcul haute performance.
+Ce sera pour moi l'occasion de résoudre des problèmes scientifiques
+et de découvrir la chaîne de production de Dassault Aviation.
+Les metiers de l’aéronautique m’ont toujours fait rêver et
+ce serait un grand plaisir de réunir ce domaine avec mon
+champ d’études et un honneur d’effectuer ce stage au sein
+d’une entreprise d’un tel renom.
+
+Ma double licence maths physique m'offre
+une base solide face aux questions scientifiques.
+J'ai profité de cette période pour programmer de nombreux projets,
+découvrir Unix, apprendre et approfondir de nombreux langages de programmation
+et prendre part à plusieurs groupes de développeurs.
+Mon choix de Master m'a permis de m'impliquer totalement dans ma passion,
+afin d'en faire un projet professionnel tout en gardant
 l'impulsion d'un parcours scientifique.
-\\[.2in]
-Je suis bon codeur, j'apprends vite, j'aime maintenir des projets soignés et je suis motivé pour m'intégrer dans une équipe. Pour moi, l'informatique c'est un plaisir personnel avant tout; pouvoir travailler avec ma source de plaisir c'est avoir la possibilité de mettre en oeuvre le meilleur de moi-même. Étant bilingue français\---anglais par mes parents et mon éducation internationale, je suis linguistiquement et culturellement un atout.
-\\[.2in]
-Studieux et bien noté, je ne me contente pas de ma formation. Je continue de programmer pour mon plaisir : je résous souvent des problèmes du projet Euler, j'aime reproduire des jeux, faire du data-bending et toutes sortes d'animations procédurales.
-\\[.1in]
-J'aime partager mes connaissances dans tous les domaines \---- je suis en particulier tuteur en anglais et je dispense en ce moment le cours d'une élève handicapée.
-\\[.1in]
-Je suis de plus représentant étudiant au conseil de l'UFR des Sciences de Versailles dans lequel je participe à la vie de l'université et découvre son fonctionnement interne.
-\\[.1in]
-Enfin j'ai participé à la création d'une association pour promouvoir l'image de mon université à travers le sport. J'ai pris part à la conception du projet, aux démarches administratives, à la mise en place des événements et j'ai monté le back-end informatique. C'était une occasion formidable de prendre un rôle décisionnel et surmonter les difficultés d'un projet en groupe.
-\\[.2in]
-J'espère vous avoir montré mon implication dans mon projet éducatif et professionnel et vous invite à voir dans mes nombreuses facettes la personne qu'il vout faut.
-\\[.3in]
-Avec l'expression de mes salutations,
-\\[.2in]
-John Gliksberg
+
+Bon codeur, j'apprends vite, aime maintenir des projets
+soignés et m'intègre bien dans les équipes de travail.
+Je m'attache à dépasser les attentes dans le but de chercher
+la meilleure qualité de production de ma part et de mes collègues.
+Je suis agile par nature et vais de l'avant pour conceptualiser un projet
+dans son ensemble comme dans ses détails au sein d'un travail collectif.
+Mon bilinguisme a été un atout culturel et linguistique à de nombreuses
+reprises dans mon parcours informatique.
+
+%L'été dernier, j'ai choisi de réaliser un stage optionnel de quatre mois
+%chez Scilab Enterprises.
+%En tant que développeur open source, j'ai fourni non seulement
+%des codes bien documentés, des solutions concrètes pour l'industrialisation
+%de produits scientifiques, mais aussi une implication dans les différents
+%aspects de l'entreprise: j'ai travaillé avec le CTO pour restructurer
+%et documenter le back-end de gestion des modules Scilab
+%et ai participé à la communauté de développement pour packager et
+%débugger des modules utilisateurs.
+%Ce stage m'a beaucoup apporté et je veux mettre en œuvre mon expérience
+%au sein de votre entreprise.
+
+%Studieux et bien noté, je ne me contente pas de ma formation.
+%Je continue de programmer pour moi-même et je participe à
+%d'autres activités extracurriculaires: \newline
+%Je suis tuteur en anglais pour des élèves handicapés;
+%j'ai co-fondé une association pour promouvoir l'image de
+%mon université à travers le sport, j'en ai réalisé le projet
+%administratif et j'ai co-ordonné plus de trente membres actifs
+%durant un an et demi.
+
+%J'espère vous avoir montré mon implication et mes motivations.
+Me tenant à votre disposition pour un prochain entretien,
+je vous prie d'agréer, Madame, Monsieur,
+mes sincères salutations.
+
+\vspace*{\fill}
+
+{
+    \hspace*{\fill}
+    \begin{minipage}{.4\textwidth}
+        \includegraphics[width=.45\textwidth]{sig.png}
+    \end{minipage}
+}
+
 \end{document}
+
